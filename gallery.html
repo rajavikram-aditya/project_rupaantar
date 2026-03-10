@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery — Project Rupaantar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Rupaantar</a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#impact">Impact</a></li>
+      <li><a href="index.html#achievements">Achievements</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="hero-bg"></div>
+    <div class="page-hero-content">
+      <p class="hero-eyebrow">Our Journey</p>
+      <h1>Gallery</h1>
+      <p class="hero-sub">Moments from the field — workshops, products & community</p>
+    </div>
+  </section>
+
+  <!-- FILTER BAR -->
+  <section class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="workshops">Workshops</button>
+    <button class="filter-btn" data-filter="products">Products</button>
+    <button class="filter-btn" data-filter="community">Community</button>
+    <button class="filter-btn" data-filter="events">Events</button>
+  </section>
+
+  <!-- GALLERY GRID -->
+  <section class="gallery-section">
+    <div class="gallery-grid" id="galleryGrid">
+
+      <div class="gallery-item tall" data-category="workshops">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #1e8f80, #0d6e62);">
+          <span class="gallery-emoji">🧑‍🏭</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Workshops</span>
+          <p>Upcycling Training Session</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="products">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #d4f1ec, #80cbc4);">
+          <span class="gallery-emoji">🪴</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Products</span>
+          <p>Planter Pot Collection</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="community">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #5bc8c0, #1a9e8f);">
+          <span class="gallery-emoji">🤝</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Community</span>
+          <p>Beneficiary Meeting</p>
+        </div>
+      </div>
+
+      <div class="gallery-item wide" data-category="events">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #fdf3dc, #f5a623);">
+          <span class="gallery-emoji">🏆</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Events</span>
+          <p>Enactus Regional Competition</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="products">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #ede7f6, #b39ddb);">
+          <span class="gallery-emoji">📓</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Products</span>
+          <p>Recycled Journal Display</p>
+        </div>
+      </div>
+
+      <div class="gallery-item tall" data-category="community">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #e8f5e9, #66bb6a);">
+          <span class="gallery-emoji">👩‍👩‍👧</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Community</span>
+          <p>Women Artisans at Work</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="workshops">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #e3f2fd, #64b5f6);">
+          <span class="gallery-emoji">🎨</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Workshops</span>
+          <p>Mosaic Art Workshop</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="events">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #fce4ec, #f48fb1);">
+          <span class="gallery-emoji">🎤</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Events</span>
+          <p>DM Chiplun Presentation</p>
+        </div>
+      </div>
+
+      <div class="gallery-item wide" data-category="workshops">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #f1f8e9, #aed581);">
+          <span class="gallery-emoji">♻️</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Workshops</span>
+          <p>Waste Sorting & Collection Drive</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="products">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #fff8e1, #ffca28);">
+          <span class="gallery-emoji">🕯️</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Products</span>
+          <p>Soy Candle Range</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="community">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #fbe9e7, #ff8a65);">
+          <span class="gallery-emoji">🌍</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Community</span>
+          <p>Village Outreach Program</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="events">
+        <div class="gallery-img" style="background: linear-gradient(135deg, #e8eaf6, #7986cb);">
+          <span class="gallery-emoji">🎓</span>
+        </div>
+        <div class="gallery-overlay">
+          <span class="gallery-tag">Events</span>
+          <p>Campus Awareness Campaign</p>
+        </div>
+      </div>
+
+    </div>
+    <p class="no-results" id="noResults" style="display:none;">No photos in this category yet.</p>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&#10005;</button>
+    <div class="lightbox-content" id="lightboxContent"></div>
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-content">
+      <h2>Be Part of the Story</h2>
+      <p>Want to collaborate, volunteer, or support Project Rupaantar?</p>
+      <a href="index.html#contact" class="cta-btn">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>© 2025 <span>Project Rupaantar</span> · Enactus MPSTME</div>
+    <div>Waste to <span>Wealth</span></div>
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

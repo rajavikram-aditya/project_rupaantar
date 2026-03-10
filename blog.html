@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog — Project Rupaantar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Rupaantar</a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#impact">Impact</a></li>
+      <li><a href="index.html#achievements">Achievements</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="hero-bg"></div>
+    <div class="page-hero-content">
+      <p class="hero-eyebrow">Stories & Insights</p>
+      <h1>Our Blog</h1>
+      <p class="hero-sub">Ideas, journeys and lessons from the ground up</p>
+    </div>
+  </section>
+
+  <!-- SEARCH BAR -->
+  <section class="search-section">
+    <div class="search-wrap">
+      <span class="search-icon">&#128269;</span>
+      <input
+        type="text"
+        id="searchInput"
+        class="search-input"
+        placeholder="Search articles by title, category or keyword..."
+        autocomplete="off"
+      />
+      <button class="search-clear" id="searchClear" aria-label="Clear search">&#10005;</button>
+    </div>
+    <p class="search-count" id="searchCount">Showing 8 articles</p>
+  </section>
+
+  <!-- FEATURED POST -->
+  <section class="featured-section" id="featuredSection">
+    <div class="featured-card" data-title="From Trash to Treasure: How Rupaantar Began" data-category="our story" data-author="Rupaantar Team" data-excerpt="The story of how a small college initiative turned into a movement — transforming waste materials into handcrafted products that empower communities across the Konkan region.">
+      <div class="featured-img" style="background: linear-gradient(135deg, #0d6e62 0%, #1a9e8f 60%, #5bc8c0 100%);">
+        <span class="featured-emoji">🌱</span>
+      </div>
+      <div class="featured-body">
+        <div class="featured-meta">
+          <span class="card-tag">Our Story</span>
+          <span class="meta-dot">·</span>
+          <span class="meta-item">&#128336; 6 min read</span>
+          <span class="meta-dot">·</span>
+          <span class="meta-item">March 2025</span>
+        </div>
+        <h2 class="featured-title">From Trash to Treasure: How Rupaantar Began</h2>
+        <p class="featured-excerpt">The story of how a small college initiative turned into a movement — transforming waste materials into handcrafted products that empower communities across the Konkan region.</p>
+        <div class="featured-footer">
+          <div class="author-row">
+            <div class="author-avatar" style="background: #f5a623;">R</div>
+            <span class="author-name">Rupaantar Team</span>
+          </div>
+          <a href="#" class="read-more-btn">Read Article &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG GRID -->
+  <section class="blog-section">
+    <div class="blog-grid" id="blogGrid">
+
+      <article class="blog-card tall" data-title="The Circular Economy Explained" data-category="sustainability" data-author="Priya Sharma" data-excerpt="What does it actually mean to build a circular economy? We break down the concept and show how Rupaantar embodies it.">
+        <div class="card-img" style="background: linear-gradient(135deg, #1e8f80, #0a4a42);">
+          <span>♻️</span>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-tag">Sustainability</span>
+            <span class="meta-dot">·</span>
+            <span class="meta-item">5 min read</span>
+          </div>
+          <h3>The Circular Economy Explained</h3>
+          <p>What does it actually mean to build a circular economy? We break down the concept and show how Rupaantar embodies it every day.</p>
+          <div class="card-footer">
+            <div class="author-row">
+              <div class="author-avatar" style="background: #1a9e8f;">P</div>
+              <div>
+                <span class="author-name">Priya Sharma</span>
+                <span class="author-date">Feb 2025</span>
+              </div>
+            </div>
+            <a href="#" class="read-link">Read &#8594;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="blog-card" data-title="Meet the Artisans Behind Our Products" data-category="community" data-author="Arjun Patil" data-excerpt="A closer look at the skilled hands shaping waste into beauty — and how their lives have changed.">
+        <div class="card-img" style="background: linear-gradient(135deg, #fdf3dc, #f5a623);">
+          <span>👐</span>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-tag">Community</span>
+            <span class="meta-dot">·</span>
+            <span class="meta-item">4 min read</span>
+          </div>
+          <h3>Meet the Artisans Behind Our Products</h3>
+          <p>A closer look at the skilled hands shaping waste into beauty — and how their lives have changed.</p>
+          <div class="card-footer">
+            <div class="author-row">
+              <div class="author-avatar" style="background: #f5a623; color: #1a1a1a;">A</div>
+              <div>
+                <span class="author-name">Arjun Patil</span>
+                <span class="author-date">Jan 2025</span>
+              </div>
+            </div>
+            <a href="#" class="read-link">Read &#8594;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="blog-card" data-title="5 Ways to Upcycle at Home" data-category="diy" data-author="Sneha Kulkarni" data-excerpt="You don't need a factory to start upcycling. Here are five simple ideas to transform everyday waste in your own home.">
+        <div class="card-img" style="background: linear-gradient(135deg, #e8f5e9, #66bb6a);">
+          <span>🏠</span>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-tag">DIY</span>
+            <span class="meta-dot">·</span>
+            <span class="meta-item">3 min read</span>
+          </div>
+          <h3>5 Ways to Upcycle at Home</h3>
+          <p>You don't need a factory to start. Here are five simple ideas to transform everyday waste in your own home.</p>
+          <div class="card-footer">
+            <div class="author-row">
+              <div class="author-avatar" style="background: #66bb6a;">S</div>
+              <div>
+                <span class="author-name">Sneha Kulkarni</span>
+                <span class="author-date">Dec 2024</span>
+              </div>
+            </div>
+            <a href="#" class="read-link">Read &#8594;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="blog-card wide" data-title="Our Journey at Enactus Nationals" data-category="events" data-author="Rupaantar Team" data-excerpt="From sleepless nights to standing on the national stage — here's everything that happened at Enactus Nationals 2024 and what we learned from the experience.">
+        <div class="card-img" style="background: linear-gradient(135deg, #ede7f6, #7e57c2);">
+          <span>🏆</span>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-tag">Events</span>
+            <span class="meta-dot">·</span>
+            <span class="meta-item">7 min read</span>
+          </div>
+          <h3>Our Journey at Enactus Nationals</h3>
+          <p>From sleepless nights to standing on the national stage — here's everything that happened at Enactus Nationals 2024 and what we learned.</p>
+          <div class="card-footer">
+            <div class="author-row">
+              <div class="author-avatar" style="background: #7e57c2;">R</div>
+              <div>
+                <span class="author-name">Rupaantar Team</span>
+                <span class="author-date">Nov 2024</span>
+              </div>
+            </div>
+            <a href="#" class="read-link">Read &#8594;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="blog-card tall" data-title="Why Waste Management is a Women's Issue" data-category="sustainability" data-author="Meera Joshi" data-excerpt="Women make up the majority of waste workers and yet remain invisible in policy conversations. Here's why that needs to change.">
+        <div class="card-img" style="background: linear-gradient(135deg, #fce4ec, #e91e8c);">
+          <span>♀️</span>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-tag">Sustainability</span>
+            <span class="meta-dot">·</span>
+            <span class="meta-item">6 min read</span>
+          </div>
+          <h3>Why Waste Management is a Women's Issue</h3>
+          <p>Women make up the majority of waste workers yet remain invisible in policy conversations. Here's why that needs to change.</p>
+          <div class="card-footer">
+            <div class="author-row">
+              <div class="author-avatar" style="background: #e91e8c;">M</div>
+              <div>
+                <span class="author-name">Meera Joshi</span>
+                <span class="author-date">Oct 2024</span>
+              </div>
+            </div>
+            <a href="#" class="read-link">Read &#8594;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="blog-card" data-title="Behind the Scenes: Making a Planter Pot" data-category="diy" data-author="Rahul Desai" data-excerpt="Step by step through the process of turning discarded plastic into a beautiful handpainted planter pot.">
+        <div class="card-img" style="background: linear-gradient(135deg, #d4f1ec, #1a9e8f);">
+          <span>🪴</span>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-tag">DIY</span>
+            <span class="meta-dot">·</span>
+            <span class="meta-item">4 min read</span>
+          </div>
+          <h3>Behind the Scenes: Making a Planter Pot</h3>
+          <p>Step by step through the process of turning discarded plastic into a beautiful handpainted planter pot.</p>
+          <div class="card-footer">
+            <div class="author-row">
+              <div class="author-avatar" style="background: #1a9e8f;">R</div>
+              <div>
+                <span class="author-name">Rahul Desai</span>
+                <span class="author-date">Sep 2024</span>
+              </div>
+            </div>
+            <a href="#" class="read-link">Read &#8594;</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="blog-card" data-title="What Enactus Taught Us About Social Entrepreneurship" data-category="our story" data-author="Priya Sharma" data-excerpt="Lessons from two years of building a social enterprise inside a college framework — and what we'd tell our past selves.">
+        <div class="card-img" style="background: linear-gradient(135deg, #fff8e1, #ffb300);">
+          <span>💡</span>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-tag">Our Story</span>
+            <span class="meta-dot">·</span>
+            <span class="meta-item">5 min read</span>
+          </div>
+          <h3>What Enactus Taught Us About Social Entrepreneurship</h3>
+          <p>Lessons from two years of building a social enterprise inside a college framework — and what we'd tell our past selves.</p>
+          <div class="card-footer">
+            <div class="author-row">
+              <div class="author-avatar" style="background: #ffb300; color:#1a1a1a;">P</div>
+              <div>
+                <span class="author-name">Priya Sharma</span>
+                <span class="author-date">Aug 2024</span>
+              </div>
+            </div>
+            <a href="#" class="read-link">Read &#8594;</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- NO RESULTS -->
+    <div class="no-results" id="noResults" style="display:none;">
+      <span>🔍</span>
+      <h3>No articles found</h3>
+      <p>Try a different keyword or clear your search.</p>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-content">
+      <h2>Have a story to share?</h2>
+      <p>We welcome guest posts from community members, artisans, and sustainability enthusiasts.</p>
+      <a href="index.html#contact" class="cta-btn">Write for Us</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>© 2025 <span>Project Rupaantar</span> · Enactus MPSTME</div>
+    <div>Waste to <span>Wealth</span></div>
+  </footer>
+
+  <script src="blog.js"></script>
+</body>
+</html>

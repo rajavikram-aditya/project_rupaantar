@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products — Project Rupaantar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="products.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-logo">Rupaantar</a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#impact">Impact</a></li>
+      <li><a href="index.html#achievements">Achievements</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="hero-bg"></div>
+    <div class="page-hero-content">
+      <p class="hero-eyebrow">Waste to Wealth</p>
+      <h1>Our Products</h1>
+      <p class="hero-sub">Handcrafted from discarded materials by local artisans</p>
+    </div>
+  </section>
+
+  <!-- FILTER BAR -->
+  <section class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="home-decor">Home Décor</button>
+    <button class="filter-btn" data-filter="accessories">Accessories</button>
+    <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+    <button class="filter-btn" data-filter="stationery">Stationery</button>
+    <button class="filter-btn" data-filter="art-craft">Art & Craft</button>
+  </section>
+
+  <!-- PRODUCTS GRID -->
+  <section class="products-section">
+    <div class="products-grid" id="productsGrid">
+
+      <div class="product-card" data-category="home-decor">
+        <div class="product-img" style="background: linear-gradient(135deg, #d4f1ec, #a8e0d8);">
+          🪴
+          <span class="img-label">Upcycled</span>
+        </div>
+        <div class="product-body">
+          <span class="product-tag">Home Décor</span>
+          <h3>Planter Pots</h3>
+          <p>Handcrafted planter pots made from discarded plastic waste, painted with eco-friendly colours. Durable, lightweight, and uniquely designed by local artisans.</p>
+          <a href="index.html#contact" class="enquire-btn">Enquire Now</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="accessories">
+        <div class="product-img" style="background: linear-gradient(135deg, #fdf3dc, #f9e0a2);">
+          👜
+          <span class="img-label">Handmade</span>
+        </div>
+        <div class="product-body">
+          <span class="product-tag">Accessories</span>
+          <h3>Upcycled Tote Bags</h3>
+          <p>Stylish tote bags crafted from repurposed fabric scraps and waste cloth. Each bag is one-of-a-kind, carrying a story of sustainability.</p>
+          <a href="index.html#contact" class="enquire-btn">Enquire Now</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="lifestyle">
+        <div class="product-img" style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9);">
+          🕯️
+          <span class="img-label">Eco-Friendly</span>
+        </div>
+        <div class="product-body">
+          <span class="product-tag">Lifestyle</span>
+          <h3>Soy Wax Candles</h3>
+          <p>Aromatic candles poured into repurposed glass jars using natural soy wax and essential oils — zero waste, all warmth.</p>
+          <a href="index.html#contact" class="enquire-btn">Enquire Now</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="stationery">
+        <div class="product-img" style="background: linear-gradient(135deg, #ede7f6, #d1c4e9);">
+          📓
+          <span class="img-label">Recycled</span>
+        </div>
+        <div class="product-body">
+          <span class="product-tag">Stationery</span>
+          <h3>Recycled Paper Journals</h3>
+          <p>Notebooks made entirely from recycled paper and waste cardboard. Perfect for journaling, sketching, or gifting with a green conscience.</p>
+          <a href="index.html#contact" class="enquire-btn">Enquire Now</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="home-decor">
+        <div class="product-img" style="background: linear-gradient(135deg, #fce4ec, #f8bbd0);">
+          🧺
+          <span class="img-label">Handwoven</span>
+        </div>
+        <div class="product-body">
+          <span class="product-tag">Home Décor</span>
+          <h3>Woven Storage Baskets</h3>
+          <p>Functional and beautiful storage baskets woven from discarded newspaper strips and jute twine by skilled local artisans.</p>
+          <a href="index.html#contact" class="enquire-btn">Enquire Now</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="art-craft">
+        <div class="product-img" style="background: linear-gradient(135deg, #e3f2fd, #b3e5fc);">
+          🖼️
+          <span class="img-label">Upcycled</span>
+        </div>
+        <div class="product-body">
+          <span class="product-tag">Art & Craft</span>
+          <h3>Mosaic Wall Art</h3>
+          <p>Decorative wall panels assembled from broken tile pieces and waste glass, transformed into vibrant mosaic artwork for homes and offices.</p>
+          <a href="index.html#contact" class="enquire-btn">Enquire Now</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="accessories">
+        <div class="product-img" style="background: linear-gradient(135deg, #fff8e1, #ffecb3);">
+          📿
+          <span class="img-label">Handcrafted</span>
+        </div>
+        <div class="product-body">
+          <span class="product-tag">Accessories</span>
+          <h3>Upcycled Jewellery</h3>
+          <p>Earrings, bracelets, and necklaces made from waste metal scraps and fabric offcuts — wearable art that tells a sustainable story.</p>
+          <a href="index.html#contact" class="enquire-btn">Enquire Now</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="lifestyle">
+        <div class="product-img" style="background: linear-gradient(135deg, #f1f8e9, #dcedc8);">
+          🧴
+          <span class="img-label">Natural</span>
+        </div>
+        <div class="product-body">
+          <span class="product-tag">Lifestyle</span>
+          <h3>Herbal Soap Bars</h3>
+          <p>Cold-pressed soap bars crafted with natural herbs and zero synthetic chemicals, packaged in recycled paper wrapping.</p>
+          <a href="index.html#contact" class="enquire-btn">Enquire Now</a>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="stationery">
+        <div class="product-img" style="background: linear-gradient(135deg, #fbe9e7, #ffccbc);">
+          ✏️
+          <span class="img-label">Recycled</span>
+        </div>
+        <div class="product-body">
+          <span class="product-tag">Stationery</span>
+          <h3>Seed Pencils</h3>
+          <p>Pencils made from recycled newspaper that can be planted after use — the embedded seeds grow into herbs, flowers, or vegetables.</p>
+          <a href="index.html#contact" class="enquire-btn">Enquire Now</a>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="no-results" id="noResults" style="display:none;">No products found in this category.</p>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-content">
+      <h2>Want to place a bulk order or collaborate?</h2>
+      <p>We work with NGOs, corporates, and individuals to create custom upcycled products.</p>
+      <a href="index.html#contact" class="cta-btn">Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>© 2025 <span>Project Rupaantar</span> · Enactus MPSTME</div>
+    <div>Waste to <span>Wealth</span></div>
+  </footer>
+
+  <script src="products.js"></script>
+</body>
+</html>
